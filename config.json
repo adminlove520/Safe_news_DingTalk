@@ -58,9 +58,9 @@
             "key": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
         },
         "dingtalk": {
-            "enabled": false,
+            "enabled": true,
             "secrets": "DINGTALK_KEY",
-            "key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            "key": "SECe9b955b4ff0503a126475bb854cd12786c9f9897da69f4a6e06bbb0f2460bf9d"
         },
         "qq": {
             "enabled": false,
@@ -78,10 +78,10 @@
         "mail": {
             "enabled": true,
             "secrets": "MAIL_KEY",
-            "address": "firmianay@163.com",
-            "server": "smtp.163.com",
-            "receiver": ["2419110059@qq.com"],
-            "key": "xxxxxxxxxx"
+            "address": "2831314409.com",
+            "server": "smtp.qq.com",
+            "receiver": ["2831314409@qq.com"],
+            "key": "rwrkjvgfyushdefa"
         }
     }
 }
