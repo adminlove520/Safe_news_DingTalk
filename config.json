@@ -76,7 +76,7 @@
             "key": "xxxxxxxxxx"
         },
         "mail": {
-            "enabled": true,
+            "enabled": false,
             "secrets": "MAIL_KEY",
             "address": "2831314409.com",
             "server": "smtp.qq.com",
