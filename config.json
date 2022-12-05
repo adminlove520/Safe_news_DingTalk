@@ -48,7 +48,7 @@
 
     "bot": {
         "feishu": {
-            "enabled": false,
+            "enabled": true,
             "secrets": "FEISHU_KEY",
             "key": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
         },
