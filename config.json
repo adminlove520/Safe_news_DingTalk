@@ -15,7 +15,7 @@
             "filename": "CyberSecurityRSS.opml"
         },
         "CyberSecurityRSS-tiny": {
-            "enabled": false,
+            "enabled": true,
             "url": "https://raw.githubusercontent.com/zer0yu/CyberSecurityRSS/master/tiny.opml",
             "filename": "CyberSecurityRSS-tiny.opml"
         },
@@ -25,12 +25,12 @@
             "filename": "Chinese-Security-RSS.opml"
         },
         "awesome-security-feed": {
-            "enabled": false,
+            "enabled": true,
             "url": "https://raw.githubusercontent.com/mrtouch93/awesome-security-feed/main/security_feeds.opml",
             "filename": "awesome-security-feed.opml"
         },
         "SecurityRSS": {
-            "enabled": false,
+            "enabled": true,
             "url": "https://github.com/Han0nly/SecurityRSS/blob/master/SecureRss.opml",
             "filename": "SecureRss.opml"
         },
@@ -40,7 +40,7 @@
             "filename": "wechatRSS.opml"
         },
         "chinese-independent-blogs": {
-            "enabled": false,
+            "enabled": true,
             "url": "https://raw.githubusercontent.com/timqian/chinese-independent-blogs/master/feed.opml",
             "filename": "chinese-independent-blogs.opml"
         }
@@ -50,7 +50,7 @@
         "feishu": {
             "enabled": true,
             "secrets": "FEISHU_KEY",
-            "key": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+            "key": "8205b568-5ed7-48ba-b89b-384499b473c3"
         },
         "wecom": {
             "enabled": false,
@@ -58,7 +58,7 @@
             "key": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
         },
         "dingtalk": {
-            "enabled": true,
+            "enabled": false,
             "secrets": "DINGTALK_KEY",
             "key": "SECe9b955b4ff0503a126475bb854cd12786c9f9897da69f4a6e06bbb0f2460bf9d"
         },
