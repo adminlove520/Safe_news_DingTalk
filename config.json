@@ -78,10 +78,11 @@
         "mail": {
             "enabled": true,
             "secrets": "MAIL_KEY",
-            "address": "2831314409.com",
+            "address": "3264849383.com",
             "server": "smtp.qq.com",
             "receiver": ["2831314409@qq.com,h673378119@163.com"],
-            "key": "eshaduzzxcckdgdf"
+            "key": "btcazyoivnypdbdg
+"
         }
     }
 }
