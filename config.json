@@ -48,7 +48,7 @@
 
     "bot": {
         "feishu": {
-            "enabled": true,
+            "enabled": false,
             "secrets": "FEISHU_KEY",
             "key": "8205b568-5ed7-48ba-b89b-384499b473c3"
         },
@@ -76,11 +76,11 @@
             "key": "xxxxxxxxxx"
         },
         "mail": {
-            "enabled": false,
+            "enabled": true,
             "secrets": "MAIL_KEY",
             "address": "2831314409.com",
             "server": "smtp.qq.com",
-            "receiver": ["2831314409@qq.com"],
+            "receiver": ["2831314409@qq.com,h673378119@163.com"],
             "key": "rwrkjvgfyushdefa"
         }
     }
