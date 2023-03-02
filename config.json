@@ -78,7 +78,7 @@
         "mail": {
             "enabled": true,
             "secrets": "MAIL_KEY",
-            "address": "3264849383.com",
+            "address": "18883802624@163.com",
             "server": "smtp.163.com",
             "receiver": ["2831314409@qq.com,h673378119@163.com"],
             "key": "DHNYXJWFNNZDAFAK"
