@@ -49,12 +49,12 @@
             "key": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
         },
         "wecom": {
-            "enabled": true,
+            "enabled": false,
             "secrets": "WECOM_KEY",
             "key": "debb0290-c14b-4af2-b74d-5aae6179e097"
         },
         "dingtalk": {
-            "enabled": false,
+            "enabled": true,
             "secrets": "DINGTALK_KEY",
             "key": "e95954b3894361eff4f1affb77cd04d3e08516cebcb92552dc3ebe3978e09932"
         },
