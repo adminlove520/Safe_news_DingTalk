@@ -1,7 +1,21 @@
+# yarb (Yet Another Rss Bot)
+
+一个方便获取每日安全资讯的爬虫和推送程序。支持导入 opml 文件，因此也可以订阅其他任何 RSS 源。
+
+**懒人福音，每日自动更新，点击右上角 Watch 即可：[每日安全资讯](./today.md)，[历史存档](./archive)**
+
+- [yarb (Yet Another Rss Bot)](#yarb-yet-another-rss-bot)
+  - [安装](#安装)
+  - [运行](#运行)
+    - [本地搭建](#本地搭建)
+    - [Github Actions](#github-actions)
+  - [订阅源](#订阅源)
+  - [关注我们](#关注我们)
+
 ## 安装
 
 ```sh
-$ git clone https://github.com/firmianay/yarb.git
+$ git clone https://github.com/VulnTotal-Team/yarb.git
 $ cd yarb && ./install.sh
 ```
 
@@ -36,10 +50,10 @@ $ nohup ./yarb.py --cron 11:00 > run.log 2>&1 &
 
 - [邮件机器人](https://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256)
   - `MAIL_KEY`（需要申请授权码，订阅较多时推荐）
-  - `MAIL_RECEIVER`（接收人，以“,”分隔）
+  - `MAIL_RECEIVER`（可选，接收人，以“,”分隔）
 - [飞书群机器人](https://open.feishu.cn/document/ukTMukTMukTM/ucTM5YjL3ETO24yNxkjN)：`FEISHU_KEY`
 - [企业微信群机器人](https://developer.work.weixin.qq.com/document/path/91770)：`WECOM_KEY`
-- [钉钉群机器人](https://open.dingtalk.com/document/robots/custom-robot-access)：`DINGTALK_KEY`
+- [钉钉群机器人](https://open.dingtalk.com/document/robots/custom-robot-access)：`DINGTALK_KEY`（机器人安全设置可以使用“自定义关键词”，设置为“Yarb”）
 - [QQ群机器人](https://github.com/Mrs4s/go-cqhttp)：`QQ_KEY`（需要关闭登录设备锁）
 - [Telegram机器人](https://core.telegram.org/bots/api): `TELEGRAM_KEY`（需要代理）
 
@@ -54,7 +68,6 @@ $ nohup ./yarb.py --cron 11:00 > run.log 2>&1 &
 - [CyberSecurityRSS](https://github.com/zer0yu/CyberSecurityRSS)
 - [Chinese-Security-RSS](https://github.com/zhengjim/Chinese-Security-RSS)
 - [awesome-security-feed](https://github.com/mrtouch93/awesome-security-feed)
-- [SecurityRSS](https://github.com/Han0nly/SecurityRSS)
 - [安全技术公众号](https://github.com/ttttmr/wechat2rss)
 - [SecWiki 安全聚合](https://www.sec-wiki.com/opml/index)
 - [Hacking8 安全信息流](https://i.hacking8.com/)
@@ -92,3 +105,11 @@ $ nohup ./yarb.py --cron 11:00 > run.log 2>&1 &
 </body>
 </opml>
 ```
+
+## 关注我们
+
+[VulnTotal安全](https://github.com/VulnTotal-Team)致力于分享高质量原创文章和开源工具，包括物联网/汽车安全、移动安全、网络攻防等。
+
+GNU General Public License v3.0
+
+[![Stargazers over time](https://starchart.cc/VulnTotal-Team/yarb.svg)](https://starchart.cc/VulnTotal-Team/yarb)

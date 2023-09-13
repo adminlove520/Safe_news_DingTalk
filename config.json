@@ -4,6 +4,7 @@
         "rss": false,
         "bot": false
     },
+
     "rss": {
         "CustomRSS": {
             "enabled": true,
@@ -15,7 +16,7 @@
             "filename": "CyberSecurityRSS.opml"
         },
         "CyberSecurityRSS-tiny": {
-            "enabled": true,
+            "enabled": false,
             "url": "https://raw.githubusercontent.com/zer0yu/CyberSecurityRSS/master/tiny.opml",
             "filename": "CyberSecurityRSS-tiny.opml"
         },
@@ -29,18 +30,13 @@
             "url": "https://raw.githubusercontent.com/mrtouch93/awesome-security-feed/main/security_feeds.opml",
             "filename": "awesome-security-feed.opml"
         },
-        "SecurityRSS": {
-            "enabled": true,
-            "url": "https://github.com/Han0nly/SecurityRSS/blob/master/SecureRss.opml",
-            "filename": "SecureRss.opml"
-        },
         "wechatRSS": {
             "enabled": true,
-            "url": "https://wechat2rss.xlab.app/opml/sec.opml",
+            "url": "https://raw.githubusercontent.com/ttttmr/Wechat2RSS/master/static/opml/sec.opml",
             "filename": "wechatRSS.opml"
         },
         "chinese-independent-blogs": {
-            "enabled": true,
+            "enabled": false,
             "url": "https://raw.githubusercontent.com/timqian/chinese-independent-blogs/master/feed.opml",
             "filename": "chinese-independent-blogs.opml"
         }
@@ -50,7 +46,7 @@
         "feishu": {
             "enabled": false,
             "secrets": "FEISHU_KEY",
-            "key": "8205b568-5ed7-48ba-b89b-384499b473c3"
+            "key": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
         },
         "wecom": {
             "enabled": false,
@@ -58,9 +54,9 @@
             "key": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
         },
         "dingtalk": {
-            "enabled": true,
+            "enabled": false,
             "secrets": "DINGTALK_KEY",
-            "key": "b826752e15d279ef2bf56f067492147f83d75266bc1d96e51bd82b5dc218f85a"
+            "key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
         },
         "qq": {
             "enabled": false,
@@ -76,12 +72,24 @@
             "key": "xxxxxxxxxx"
         },
         "mail": {
-            "enabled": true,
+            "enabled": false,
             "secrets": "MAIL_KEY",
-            "address": "3264849383@qq.com",
-            "server": "smtp.qq.com",
-            "receiver": ["2831314409@qq.com,h673378119@163.com"],
-            "key": "vdwfntbjbmomchej"
+            "secrets_receiver": "MAIL_RECEIVER",
+            "address": "firmianay@163.com",
+            "server": "smtp.163.com",
+            "from": "security-bot <firmianay@163.com>",
+            "receiver": "a@163.com,b@163.com",
+            "key": "xxxxxxxxxx"
         }
+    },
+
+    "keywords": {
+        "exclude": [
+            "招聘", "招生", "开班", "报名", "双非", "倒计时", "圆满", "抽奖",
+            "好礼", "福利", "领取", "火热", "热烈", "欢迎", "美女",
+            "喜报", "喜讯", "惊喜", "恭喜", "签约", "快乐", "颜值",
+            "新冠", "疫情", "疫苗", "核酸",
+            "月薪", "年薪"
+        ]
     }
 }
